@@ -1,0 +1,75 @@
+{
+  "name": "weather-forecast",
+  "version": "1.0.0",
+  "description": "Weather Forecast App",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development webpack-dev-server --open --config ./webpack/webpack.dev.js",
+    "build": "webpack --config ./webpack/webpack.prod.js",
+    "test": "jest",
+    "lint:style": "stylelint ./src/*",
+    "lint": "eslint --ext .js src && npm run lint:style",
+    "lint:fix": "eslint --fix --ext .js src && npm run lint:style",
+    "lint-staged": "lint-staged",
+    "lint-staged:js": "eslint --ext .js,.jsx,.ts,.tsx",
+    "prettier": "prettier --write ./src/*"
+  },
+  "author": "toanleviet95@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "dompurify": "^2.1.1",
+    "dotenv-webpack": "^3.0.0",
+    "react": "^16.9",
+    "react-dom": "^16.9",
+    "styled-components": "^5.2.0",
+    "webpack": "^4.29.4",
+    "webpack-merge": "^4.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.3",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^26.5.2",
+    "babel-loader": "^8.0.5",
+    "cross-env": "^5.1.1",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.5",
+    "eslint": "^5.4.0",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-config-prettier": "^3.0.1",
+    "eslint-import-resolver-webpack": "^0.11.1",
+    "eslint-loader": "^3.0.0",
+    "eslint-plugin-babel": "^5.1.0",
+    "eslint-plugin-compat": "^2.6.2",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-markdown": "^1.0.0-beta.6",
+    "eslint-plugin-react": "^7.11.1",
+    "eslint-plugin-react-hooks": "^2.0.1",
+    "husky": "^1.1.2",
+    "jest": "^26.5.2",
+    "lint-staged": "^7.2.0",
+    "prettier": "1.14.3",
+    "react-hot-loader": "^4.6.5",
+    "react-test-renderer": "^16.13.1",
+    "stylelint": "^9.4.0",
+    "stylelint-config-prettier": "^4.0.0",
+    "stylelint-config-standard": "^18.0.0",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "lint-staged": {
+    "**/*.less": "stylelint --syntax less",
+    "**/*.{js,jsx,tsx,ts,less,md,json}": "git add",
+    "**/*.{js,jsx}": "yarn lint-staged:js"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn lint-staged"
+    }
+  },
+  "engines": {
+    "node": ">=8.0.0 <=12.19.0"
+  }
+}
