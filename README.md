@@ -10,7 +10,8 @@
   <img src="https://eslint.org/assets/img/logo.svg" width="10%" />
   &nbsp;
   <img src="https://seeklogo.com/images/S/stylelint-logo-631B4EAA36-seeklogo.com.png" width="10%" />
-  <img src="https://www.learnstorybook.com/intro-to-storybook/logo-jest.png" width="10%" />
+  &nbsp;
+  <img src="https://www.learnstorybook.com/intro-to-storybook/logo-jest.png" width="8%" />
 </div>
 
 ### Tech Stack
@@ -23,7 +24,7 @@
 - [Jest][jest] - JavaScript Testing Framework
 
 ### Node version
->= 8.0.0 <= 12.19.0
+- 8.0.0 -> 12.19.0
 
 ### How to run
 - Install
