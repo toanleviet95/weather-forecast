@@ -1,5 +1,6 @@
 # Weather Forecast
 
+### Tech Stack
 <div align="center">
   <img src="https://seeklogo.com/images/R/react-logo-7B3CE81517-seeklogo.com.png" width="10%" />
   &nbsp;
@@ -14,7 +15,6 @@
   <img src="https://www.learnstorybook.com/intro-to-storybook/logo-jest.png" width="8%" />
 </div>
 
-### Tech Stack
 - [React][reactjs] - Library for building user interfaces
 - [Webpack][webpack] - Bundle and dev server
 - [Babel][babeljs] - Compiling JS
