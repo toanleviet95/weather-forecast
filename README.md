@@ -1,4 +1,4 @@
-# Tiny Pulse assignment
+# Weather Forecast
 
 <div align="center">
   <img src="https://seeklogo.com/images/R/react-logo-7B3CE81517-seeklogo.com.png" width="10%" />
@@ -10,6 +10,7 @@
   <img src="https://eslint.org/assets/img/logo.svg" width="10%" />
   &nbsp;
   <img src="https://seeklogo.com/images/S/stylelint-logo-631B4EAA36-seeklogo.com.png" width="10%" />
+  <img src="https://www.learnstorybook.com/intro-to-storybook/logo-jest.png" width="10%" />
 </div>
 
 ### Tech Stack
@@ -19,6 +20,7 @@
 - [Hot loader][react-hot-loader] - React Hot Loader
 - [ESlint][eslint] - The pluggable linting utility for JS and JSX
 - [Stylelint][stylelint] - Linter that helps you avoid errors and enforce conventions in your styles
+- [Jest][jest] - JavaScript Testing Framework
 
 ### Node version
 >= 8.0.0 <= 12.19.0
@@ -50,3 +52,4 @@ yarn build
 [build-badge]: https://travis-ci.com/toanleviet95/react-sample-with-webpack.svg?branch=master
 [eslint]: https://eslint.org
 [stylelint]: https://stylelint.io
+[jest]: https://jestjs.io
