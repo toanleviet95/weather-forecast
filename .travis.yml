@@ -1,4 +1,10 @@
 language: node_js
 node_js:
   - '12'
+install:
+  - npm install -g codecov
+env:
+  - CODECOV_TOKEN="9fd93a6c-7fb5-4e39-a7e3-b6be75c665b6"
 script: yarn test && yarn build
+after_success:
+  - codecov
