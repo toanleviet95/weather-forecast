@@ -33,7 +33,7 @@ module.exports = {
         "**/*.test.js"
       ],
       env: {
-        jest: true // now **/*.test.js files' env has both es6 *and* jest
+        jest: true
       },
       plugins: ["jest"],
       rules: {
