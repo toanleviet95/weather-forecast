@@ -10,6 +10,7 @@ module.exports = {
     'react-hooks',
   ],
   rules: {
+    'react/prop-types': 0,
     'react/jsx-filename-extension': [1, { extensions: ['.js'] }],
     'react-hooks/rules-of-hooks': 2,
     'react-hooks/exhaustive-deps': 0,
@@ -20,6 +21,8 @@ module.exports = {
     quotes: [1, 'single'],
     semi: [1, 'always'],
     'jsx-quotes': [1, 'prefer-single'],
+    'jsx-a11y/no-static-element-interactions': 0,
+    'jsx-a11y/click-events-have-key-events': 0
   },
   settings: {
     polyfills: ['fetch', 'promises', 'url'],
