@@ -23,6 +23,7 @@ const SearchInput = ({ onSelect }) => {
 
   const handleChange = (e) => {
     setValue(e.target.value);
+    setData([]);
   };
 
   const handleReset = () => {
@@ -58,7 +59,7 @@ const SearchInput = ({ onSelect }) => {
       const regex = RegExp(debouncedSearchTerm, 'gi');
       const replacement = `<b><mark>${debouncedSearchTerm}</mark></b>`;
       hits.forEach((it, idx) => {
-        hits[idx].markTitle = !hits[idx].title ? '' : hits[idx].title.replace(regex, replacement);
+        hits[idx].markTitle = !hits[idx].title ? '' : hits[idx].title.replace(regex, replacement.toLowerCase());
       });
       setData(hits);
     }

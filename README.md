@@ -4,7 +4,7 @@
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/c225d11a8b1f4b1baac28aa1a3a97987)](https://www.codacy.com/gh/toanleviet95/weather-forecast/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=toanleviet95/weather-forecast&amp;utm_campaign=Badge_Grade)
 [![Known Vulnerabilities](https://snyk.io/test/github/toanleviet95/weather-forecast/badge.svg?targetFile=package.json)](https://snyk.io/test/github/toanleviet95/weather-forecast?targetFile=package.json)
 
-Link Demo: https://blue-existence.surge.sh/
+Link Demo: https://toan-weather-forecast.surge.sh
 
 ### Tech Stack
 <div align="center">
