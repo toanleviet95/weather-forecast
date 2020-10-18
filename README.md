@@ -70,6 +70,6 @@ yarn build
 [jest]: https://jestjs.io
 [enzyme]: https://enzymejs.github.io
 [travis]: https://travis-ci.org
-[codecov]: https://coveralls.io
+[codecov]: https://codecov.io
 [codacy]: https://www.codacy.com
 [snyk]: https://snyk.io
