@@ -33,8 +33,13 @@ const ListCard = ({ data = { consolidated_weather: DEFAULT_WEATHERS, location: '
 };
 
 ListCard.propTypes = {
-  data: PropTypes.bool.isRequired,
-  loading: PropTypes.bool.isRequired,
+  data: PropTypes.object,
+  loading: PropTypes.bool,
+};
+
+ListCard.defaultProps = {
+  data: { consolidated_weather: DEFAULT_WEATHERS, location: '' },
+  loading: false,
 };
 
 export default ListCard;

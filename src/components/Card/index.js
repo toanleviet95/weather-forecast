@@ -103,14 +103,25 @@ const Card = ({ isToday, date, loading, location, low, high, temp, state }) => {
 };
 
 Card.propTypes = {
-  isToday: PropTypes.bool.isRequired,
-  date: PropTypes.string.isRequired,
-  loading: PropTypes.bool.isRequired,
-  location: PropTypes.string.isRequired,
-  low: PropTypes.number.isRequired,
-  high: PropTypes.number.isRequired,
-  temp: PropTypes.number.isRequired,
-  state: PropTypes.string.isRequired,
+  isToday: PropTypes.bool,
+  date: PropTypes.string,
+  loading: PropTypes.bool,
+  location: PropTypes.string,
+  low: PropTypes.number,
+  high: PropTypes.number,
+  temp: PropTypes.number,
+  state: PropTypes.string,
+};
+
+Card.defaultProps = {
+  isToday: false,
+  date: '',
+  loading: false,
+  location: '',
+  low: 0,
+  high: 0,
+  temp: 0,
+  state: '',
 };
 
 export default Card;

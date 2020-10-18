@@ -108,7 +108,11 @@ const SearchInput = ({ onSelect }) => {
 };
 
 SearchInput.propTypes = {
-  onSelect: PropTypes.func.isRequired,
+  onSelect: PropTypes.func,
+};
+
+SearchInput.defaultProps = {
+  onSelect: () => {},
 };
 
 export default SearchInput;

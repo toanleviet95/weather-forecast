@@ -23,6 +23,7 @@ Array [
       className="forecast-icon"
     >
       <img
+        alt=""
         src=""
         width={48}
       />
