@@ -2,6 +2,8 @@
 [![Build Status](https://travis-ci.org/toanleviet95/weather-forecast.svg?branch=master)](https://travis-ci.org/toanleviet95/weather-forecast)
 [![Coverage Status](https://coveralls.io/repos/github/toanleviet95/weather-forecast/badge.svg)](https://coveralls.io/github/toanleviet95/weather-forecast)
 
+Link Demo: https://blue-existence.surge.sh/
+
 ### Tech Stack
 <div align="center">
   <img src="https://seeklogo.com/images/R/react-logo-7B3CE81517-seeklogo.com.png" width="10%" />
