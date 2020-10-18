@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import dayjs from 'dayjs';
 import Skeleton from '@/components/Skeleton';
 import { WEATHER_STATE, DEFAULT_EMPTY_STRING } from '@/shared/constants';
@@ -99,6 +100,17 @@ const Card = ({ isToday, date, loading, location, low, high, temp, state }) => {
       </div>
     </>
   );
+};
+
+Card.propTypes = {
+  isToday: PropTypes.bool.isRequired,
+  date: PropTypes.string.isRequired,
+  loading: PropTypes.bool.isRequired,
+  location: PropTypes.string.isRequired,
+  low: PropTypes.number.isRequired,
+  high: PropTypes.number.isRequired,
+  temp: PropTypes.number.isRequired,
+  state: PropTypes.string.isRequired,
 };
 
 export default Card;

@@ -10,7 +10,7 @@ module.exports = {
     'react-hooks',
   ],
   rules: {
-    'react/prop-types': 0,
+    'react/prop-types': 2,
     'react/jsx-filename-extension': [1, { extensions: ['.js'] }],
     'react-hooks/rules-of-hooks': 2,
     'react-hooks/exhaustive-deps': 0,

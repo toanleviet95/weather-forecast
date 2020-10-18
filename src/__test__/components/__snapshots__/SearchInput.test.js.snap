@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchInput renders correctly 1`] = `
+<div
+  className="sc-gtssRu ecHCLW"
+>
+  <div
+    className="search-input"
+    onFocus={[Function]}
+  >
+    <input
+      autoComplete="off"
+      id="search-input"
+      onChange={[Function]}
+      placeholder="Type and choose name of city..."
+      type="text"
+      value=""
+    />
+    
+    <span
+      onClick={[Function]}
+    >
+      <i
+        className="close-search"
+      >
+        x
+      </i>
+    </span>
+  </div>
+</div>
+`;
