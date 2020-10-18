@@ -10,11 +10,12 @@ module.exports = {
     'react-hooks',
   ],
   rules: {
-    'react/prop-types': 0,
+    'react/prop-types': 2,
     'react/jsx-filename-extension': [1, { extensions: ['.js'] }],
     'react-hooks/rules-of-hooks': 2,
     'react-hooks/exhaustive-deps': 0,
     'react/no-danger': 0,
+    'react/forbid-prop-types': 0,
     'comma-dangle': [1, 'always-multiline'],
     'eol-last': [2, 'always'],
     'import/no-unresolved': [2, { ignore: ['^@/'] }],

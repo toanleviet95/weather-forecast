@@ -1,4 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
+import PropTypes from 'prop-types';
 import DOMPurify from 'dompurify';
 import Spinner from '@/components/Spinner';
 import useOutside from '@/shared/useOutside';
@@ -22,6 +23,7 @@ const SearchInput = ({ onSelect }) => {
 
   const handleChange = (e) => {
     setValue(e.target.value);
+    setData([]);
   };
 
   const handleReset = () => {
@@ -48,7 +50,6 @@ const SearchInput = ({ onSelect }) => {
       execute(debouncedSearchTerm);
     } else {
       setData([]);
-      setActive(false);
     }
   }, [debouncedSearchTerm]);
 
@@ -58,7 +59,7 @@ const SearchInput = ({ onSelect }) => {
       const regex = RegExp(debouncedSearchTerm, 'gi');
       const replacement = `<b><mark>${debouncedSearchTerm}</mark></b>`;
       hits.forEach((it, idx) => {
-        hits[idx].markTitle = !hits[idx].title ? '' : hits[idx].title.replace(regex, replacement);
+        hits[idx].markTitle = !hits[idx].title ? '' : hits[idx].title.replace(regex, replacement.toLowerCase());
       });
       setData(hits);
     }
@@ -105,6 +106,14 @@ const SearchInput = ({ onSelect }) => {
       </div>
     </Wrapper>
   );
+};
+
+SearchInput.propTypes = {
+  onSelect: PropTypes.func,
+};
+
+SearchInput.defaultProps = {
+  onSelect: () => {},
 };
 
 export default SearchInput;

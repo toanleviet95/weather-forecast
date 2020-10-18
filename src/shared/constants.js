@@ -13,7 +13,7 @@ export const WEATHER_STATE = {
 
 export const DEFAULT_EMPTY_STRING = '--';
 
-export const DEBOUNCE_TIME = 500; // ms
+export const DEBOUNCE_TIME = 800; // ms
 
 export const DEFAULT_WEATHERS = [
   {

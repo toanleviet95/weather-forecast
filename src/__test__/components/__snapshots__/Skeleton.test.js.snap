@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Skeleton renders correctly 1`] = `
+<div
+  className="sc-bdnylx diXrbz"
+>
+  <div
+    className="card"
+  >
+    <div
+      className="card__title loading"
+    />
+    <div
+      className="card__description loading"
+    />
+    <div
+      className="card__description loading"
+    />
+  </div>
+</div>
+`;

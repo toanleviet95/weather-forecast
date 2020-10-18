@@ -1,0 +1,462 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders correctly 1`] = `
+<div
+  className="container-fluid"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="container"
+    >
+      <h1
+        className="sc-hKFyIo jJmaNF"
+      >
+        Weather Forecast
+      </h1>
+      <div
+        className="hero row"
+      >
+        <div
+          className="sc-gtssRu ecHCLW"
+        >
+          <div
+            className="search-input"
+            onFocus={[Function]}
+          >
+            <input
+              autoComplete="off"
+              id="search-input"
+              onChange={[Function]}
+              placeholder="Type and choose name of city..."
+              type="text"
+              value=""
+            />
+            
+            <span
+              onClick={[Function]}
+            >
+              <i
+                className="close-search"
+              >
+                x
+              </i>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        className="row"
+      >
+        <div
+          className="forecast-table row"
+        >
+          <div
+            className="forecast-container"
+          >
+            <div
+              className="forecast today"
+            >
+              <div
+                className="forecast-header"
+              >
+                <div
+                  className="day"
+                >
+                  --
+                   
+                  (Today)
+                </div>
+                <div
+                  className="date"
+                >
+                  --
+                </div>
+              </div>
+              <div
+                className="forecast-content"
+              >
+                <div
+                  className="location"
+                >
+                  <h3
+                    id="city"
+                  >
+                    --
+                  </h3>
+                </div>
+                <div
+                  className="degree"
+                >
+                  <div
+                    className="num"
+                    id="tempnow"
+                  >
+                    --
+                    <sup>
+                      o
+                    </sup>
+                    C
+                  </div>
+                  <div
+                    className="forecast-icon"
+                  >
+                    <img
+                      alt=""
+                      src=""
+                      width={90}
+                    />
+                  </div>
+                </div>
+                <span
+                  id="windnow"
+                >
+                  Low:
+                   
+                  --
+                  <sup>
+                    o
+                  </sup>
+                  C
+                </span>
+                <span
+                  id="directionnow"
+                >
+                  High:
+                   
+                  --
+                  <sup>
+                    o
+                  </sup>
+                  C
+                </span>
+              </div>
+            </div>
+            <div
+              className="forecast col-md-3 col-xs-12"
+            >
+              <div
+                className="forecast-header"
+              >
+                <div
+                  className="day"
+                >
+                  --
+                </div>
+                <div
+                  className="date"
+                >
+                  --
+                </div>
+              </div>
+              <div
+                className="forecast-content"
+              >
+                <div
+                  className="forecast-icon"
+                >
+                  <img
+                    alt=""
+                    src=""
+                    width={48}
+                  />
+                </div>
+                <div
+                  className="degree"
+                >
+                  --
+                  <sup>
+                    o
+                  </sup>
+                  C
+                </div>
+                <div
+                  className="row"
+                >
+                  <div
+                    className="col-md-12 col-md-offset-0 col-xs-4 col-xs-offset-2"
+                    style={
+                      Object {
+                        "padding": "0px",
+                      }
+                    }
+                  >
+                    <small>
+                      Low:
+                       
+                      --
+                      <sup>
+                        o
+                      </sup>
+                      C
+                    </small>
+                  </div>
+                  <div
+                    className="col-md-12 col-xs-4"
+                    style={
+                      Object {
+                        "padding": "0px",
+                      }
+                    }
+                  >
+                    <small>
+                      High:
+                       
+                      --
+                      <sup>
+                        o
+                      </sup>
+                      C
+                    </small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="forecast col-md-3 col-xs-12"
+            >
+              <div
+                className="forecast-header"
+              >
+                <div
+                  className="day"
+                >
+                  --
+                </div>
+                <div
+                  className="date"
+                >
+                  --
+                </div>
+              </div>
+              <div
+                className="forecast-content"
+              >
+                <div
+                  className="forecast-icon"
+                >
+                  <img
+                    alt=""
+                    src=""
+                    width={48}
+                  />
+                </div>
+                <div
+                  className="degree"
+                >
+                  --
+                  <sup>
+                    o
+                  </sup>
+                  C
+                </div>
+                <div
+                  className="row"
+                >
+                  <div
+                    className="col-md-12 col-md-offset-0 col-xs-4 col-xs-offset-2"
+                    style={
+                      Object {
+                        "padding": "0px",
+                      }
+                    }
+                  >
+                    <small>
+                      Low:
+                       
+                      --
+                      <sup>
+                        o
+                      </sup>
+                      C
+                    </small>
+                  </div>
+                  <div
+                    className="col-md-12 col-xs-4"
+                    style={
+                      Object {
+                        "padding": "0px",
+                      }
+                    }
+                  >
+                    <small>
+                      High:
+                       
+                      --
+                      <sup>
+                        o
+                      </sup>
+                      C
+                    </small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="forecast col-md-3 col-xs-12"
+            >
+              <div
+                className="forecast-header"
+              >
+                <div
+                  className="day"
+                >
+                  --
+                </div>
+                <div
+                  className="date"
+                >
+                  --
+                </div>
+              </div>
+              <div
+                className="forecast-content"
+              >
+                <div
+                  className="forecast-icon"
+                >
+                  <img
+                    alt=""
+                    src=""
+                    width={48}
+                  />
+                </div>
+                <div
+                  className="degree"
+                >
+                  --
+                  <sup>
+                    o
+                  </sup>
+                  C
+                </div>
+                <div
+                  className="row"
+                >
+                  <div
+                    className="col-md-12 col-md-offset-0 col-xs-4 col-xs-offset-2"
+                    style={
+                      Object {
+                        "padding": "0px",
+                      }
+                    }
+                  >
+                    <small>
+                      Low:
+                       
+                      --
+                      <sup>
+                        o
+                      </sup>
+                      C
+                    </small>
+                  </div>
+                  <div
+                    className="col-md-12 col-xs-4"
+                    style={
+                      Object {
+                        "padding": "0px",
+                      }
+                    }
+                  >
+                    <small>
+                      High:
+                       
+                      --
+                      <sup>
+                        o
+                      </sup>
+                      C
+                    </small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="forecast col-md-3 col-xs-12"
+            >
+              <div
+                className="forecast-header"
+              >
+                <div
+                  className="day"
+                >
+                  --
+                </div>
+                <div
+                  className="date"
+                >
+                  --
+                </div>
+              </div>
+              <div
+                className="forecast-content"
+              >
+                <div
+                  className="forecast-icon"
+                >
+                  <img
+                    alt=""
+                    src=""
+                    width={48}
+                  />
+                </div>
+                <div
+                  className="degree"
+                >
+                  --
+                  <sup>
+                    o
+                  </sup>
+                  C
+                </div>
+                <div
+                  className="row"
+                >
+                  <div
+                    className="col-md-12 col-md-offset-0 col-xs-4 col-xs-offset-2"
+                    style={
+                      Object {
+                        "padding": "0px",
+                      }
+                    }
+                  >
+                    <small>
+                      Low:
+                       
+                      --
+                      <sup>
+                        o
+                      </sup>
+                      C
+                    </small>
+                  </div>
+                  <div
+                    className="col-md-12 col-xs-4"
+                    style={
+                      Object {
+                        "padding": "0px",
+                      }
+                    }
+                  >
+                    <small>
+                      High:
+                       
+                      --
+                      <sup>
+                        o
+                      </sup>
+                      C
+                    </small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

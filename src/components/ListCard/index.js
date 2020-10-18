@@ -1,8 +1,10 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import Card from '@/components/Card';
+import { DEFAULT_WEATHERS } from '@/shared/constants';
 
-const ListCard = ({ data, loading }) => {
-  const { consolidated_weather: weathers = [], title: location = '' } = data;
+const ListCard = ({ data = { consolidated_weather: DEFAULT_WEATHERS, location: '' }, loading }) => {
+  const { consolidated_weather: weathers, title: location } = data;
 
   // Only max of length with 5
   const requiredWeathers = weathers.slice(0, 5);
@@ -28,6 +30,16 @@ const ListCard = ({ data, loading }) => {
       </div>
     </div>
   );
-}; 
+};
+
+ListCard.propTypes = {
+  data: PropTypes.object,
+  loading: PropTypes.bool,
+};
+
+ListCard.defaultProps = {
+  data: { consolidated_weather: DEFAULT_WEATHERS, location: '' },
+  loading: false,
+};
 
 export default ListCard;

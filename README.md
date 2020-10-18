@@ -4,7 +4,7 @@
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/c225d11a8b1f4b1baac28aa1a3a97987)](https://www.codacy.com/gh/toanleviet95/weather-forecast/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=toanleviet95/weather-forecast&amp;utm_campaign=Badge_Grade)
 [![Known Vulnerabilities](https://snyk.io/test/github/toanleviet95/weather-forecast/badge.svg?targetFile=package.json)](https://snyk.io/test/github/toanleviet95/weather-forecast?targetFile=package.json)
 
-Link Demo: https://blue-existence.surge.sh/
+Link Demo: https://toan-weather-forecast.surge.sh
 
 ### Tech Stack
 <div align="center">
@@ -28,9 +28,10 @@ Link Demo: https://blue-existence.surge.sh/
 - [ESlint][eslint] - The pluggable linting utility for JS and JSX
 - [Stylelint][stylelint] - Linter that helps you avoid errors and enforce conventions in your styles
 - [Jest][jest] - JavaScript Testing Framework
+- [Enzyme][enzyme] - JavaScript Testing utility for React
 
 ### Node version
-- 8.0.0 -> 12.19.0
+- Required: 8.0.0 -> 12.19.0
 
 ### How to run
 - Install
@@ -43,7 +44,7 @@ yarn
 yarn start
 ```
 
-- Unit test with Jest
+- Unit test with Jest + Enzyme
 ```bash
 yarn test
 ```
@@ -52,6 +53,13 @@ yarn test
 ```bash
 yarn build
 ```
+
+### Integration Testing
+- [Travis CI][travis] - Building, testing and deploy with CI
+- [Coverall][coverall] - Coverage testing and deliver better code
+- [Codacy][codacy] - Check code quality
+- [Snyk][snyk] - Check security and fix vulnerabilities
+
 [reactjs]: https://reactjs.org
 [babeljs]: https://babeljs.io
 [webpack]: https://webpack.js.org
@@ -60,3 +68,8 @@ yarn build
 [eslint]: https://eslint.org
 [stylelint]: https://stylelint.io
 [jest]: https://jestjs.io
+[enzyme]: https://enzymejs.github.io
+[travis]: https://travis-ci.org
+[coverall]: https://coveralls.io
+[codacy]: https://www.codacy.com
+[snyk]: https://snyk.io

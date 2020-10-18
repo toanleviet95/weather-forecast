@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card renders correctly 1`] = `
+Array [
+  <div
+    className="forecast-header"
+  >
+    <div
+      className="day"
+    >
+      --
+    </div>
+    <div
+      className="date"
+    >
+      --
+    </div>
+  </div>,
+  <div
+    className="forecast-content"
+  >
+    <div
+      className="forecast-icon"
+    >
+      <img
+        alt=""
+        src=""
+        width={48}
+      />
+    </div>
+    <div
+      className="degree"
+    >
+      --
+      <sup>
+        o
+      </sup>
+      C
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-12 col-md-offset-0 col-xs-4 col-xs-offset-2"
+        style={
+          Object {
+            "padding": "0px",
+          }
+        }
+      >
+        <small>
+          Low:
+           
+          --
+          <sup>
+            o
+          </sup>
+          C
+        </small>
+      </div>
+      <div
+        className="col-md-12 col-xs-4"
+        style={
+          Object {
+            "padding": "0px",
+          }
+        }
+      >
+        <small>
+          High:
+           
+          --
+          <sup>
+            o
+          </sup>
+          C
+        </small>
+      </div>
+    </div>
+  </div>,
+]
+`;
