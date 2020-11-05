@@ -22,8 +22,8 @@
     "dompurify": "^2.1.1",
     "dotenv-webpack": "^3.0.0",
     "prop-types": "^15.7.2",
-    "react": "^16.9",
-    "react-dom": "^16.9",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
     "styled-components": "^5.2.0",
     "webpack": "^4.29.4",
     "webpack-merge": "^4.2.1"
