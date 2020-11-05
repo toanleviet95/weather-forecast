@@ -19,7 +19,7 @@
   "dependencies": {
     "axios": "^0.20.0",
     "dayjs": "^1.9.3",
-    "dompurify": "^2.1.1",
+    "dompurify": "^2.2.2",
     "dotenv-webpack": "^3.0.0",
     "prop-types": "^15.7.2",
     "react": "^16.14.0",
