@@ -17,7 +17,7 @@
   "author": "toanleviet95@gmail.com",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.20.0",
+    "axios": "^0.21.0",
     "dayjs": "^1.9.4",
     "dompurify": "^2.2.2",
     "dotenv-webpack": "^3.0.0",
