@@ -19,13 +19,13 @@
   "dependencies": {
     "axios": "^0.20.0",
     "dayjs": "^1.9.4",
-    "dompurify": "^2.2.2",
+    "dompurify": "^2.5.0",
     "dotenv-webpack": "^3.0.0",
     "prop-types": "^15.7.2",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "styled-components": "^5.2.0",
-    "webpack": "^4.29.4",
+    "webpack": "^5.0.0",
     "webpack-merge": "^4.2.1"
   },
   "devDependencies": {
